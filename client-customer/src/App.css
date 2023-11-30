@@ -1,0 +1,312 @@
+/* styles.css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Meslo", sans-serif;
+}
+body {
+	/* position: relative;
+	display: flex; */
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #5d326c, #350048);
+   /*fiolet*/
+}
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+/* .body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 1px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid rgb(163, 53, 53);
+}
+.text-center {
+  text-align: center;
+  color: rgb(17, 17, 17);
+  font-weight: bolder
+}
+span.link {
+  cursor: pointer;
+  color: rgb(24, 24, 24);
+  text-decoration: underline;
+  
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: underline;
+  
+}
+form.search {
+  margin: 0px;
+  width: 50%;
+  
+  
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #ffeeaa;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+} */
+
+
+/* Định dạng cho table và các phần tử bên trong */
+
+
+table td tr{
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Định dạng cho input và button */
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+}
+
+/* Định dạng cho nút đăng ký */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* details */
+  
+/* Định dạng cho input và button */
+input[type="number"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+}
+
+/* Định dạng cho nút thêm vào giỏ hàng */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: rgb(244, 242, 242);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: rgb(25, 23, 23);
+  
+}
+
+a:hover{
+ color: #c8c1ca;
+}
+
+/* img{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+}  */
+
+.text-center {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+img tr td.align-center{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+}
+
+div .inline img{
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.inline {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #5d326c, #350048);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  
+}
+
+.inline img {
+  max-width: 250px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+div.inline {
+  display: inline-block;
+  margin-left: 20px;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 1px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid rgb(163, 53, 53);
+}
+.text-center {
+  text-align: center;
+  color: rgb(17, 17, 17);
+  font-weight: bolder
+}
+span.link {
+  cursor: pointer;
+  color: rgb(24, 24, 24);
+  text-decoration: underline;
+  
+}
+
+div .align-center-1{
+  text-align: center;
+  width: fit-content;
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: larger;
+  position: absolute;
+}
+
+.caption-right-1 img{
+  border-radius: 10px;
+}
+
+.text-center-1 {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+img tr td.align-center-1{
+  display: grid;
+  justify-content: right;
+  text-align: right;
+  padding: 10px;
+  position: absolute;
+}
+
+figure.caption-right-1 {
+  display: flex;
+  align-items: center;
+}
+
+img tr td.align-center-1{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+}
+
+a {
+  text-decoration: underline;
+}

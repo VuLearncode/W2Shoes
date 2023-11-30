@@ -1,0 +1,193 @@
+/* styles.css */
+
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+  font-style: oblique;
+  font-weight: bold;
+  color: #350048;
+
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  cursor: pointer;
+  color: #350048;
+  text-decoration: underline;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+  
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+  color: #45a049;
+  font-weight: bold;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: #350048;
+}
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #ffeeaa;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+/* Thêm một số kiểu cho input và button */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  padding: 8px;
+  margin: 4px 0;
+}
+
+/* Thêm đường viền cho input */
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Thêm một số kiểu cho nút đăng nhập */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Định dạng cho table và các phần tử bên trong */
+.table-container {
+  width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của div float-left */
+}
+
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Khoảng cách giữa table và heading "CATEGORY LIST" */
+}
+
+.datatable th, .datatable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.datatable th {
+  background-color: #f2f2f2;
+}
+
+/* Định dạng cho CategoryDetail */
+.category-detail {
+  margin-top: 20px; /* Khoảng cách giữa div inline và CategoryDetail */
+}
+
+/* PRODUCT DETAILS */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+  cursor: pointer;
+}
+input[type="text"],
+input[type="file"],
+select {
+  width: 100%; /* Đảm bảo input và select chiếm toàn bộ chiều rộng của td */
+  padding: 8px;
+  margin: 4px 0;}
+  
+/* menu */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Meslo", sans-serif;
+}
+body {
+	/* position: relative;
+	display: flex; */
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #5d326c, #350048);
+   /*fiolet*/
+}
+  
+a {
+  color: rgb(25, 23, 23);
+  
+}
+
+a:hover{
+ color: #c8c1ca;
+}
