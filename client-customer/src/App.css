@@ -119,7 +119,7 @@ tr:not(:first-child):nth-child(odd).datatable {
 tr:not(:first-child):hover.datatable {
   background-color: #dcfcfc;
   cursor: pointer;
-} */
+} 
 
 
 /* Định dạng cho table và các phần tử bên trong */
